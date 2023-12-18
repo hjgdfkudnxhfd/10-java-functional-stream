@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 public class Task02Main {
 
     public static void main(String[] args) {
-        cycleGrayCode(2)
+        cycleGrayCode(5)
                 .limit(10)
                 .forEach(System.out::println);
     }
